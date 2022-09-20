@@ -1,9 +1,11 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
 <footer class="ftco-footer ftco-bg-dark ftco-section">
 	<div class="container">
 		<div class="row mb-5">
 			<div class="col-md-6 col-lg-3">
 				<div class="ftco-footer-widget mb-4">
-					<h2 class="ftco-heading-2">Kusina</h2>
+					<h2 class="ftco-heading-2">Triều Trần</h2>
 					<p>Far far away, behind the word mountains, far from the
 						countries Vokalia and Consonantia, there live the blind texts.</p>
 					<ul
@@ -19,27 +21,27 @@
 			</div>
 			<div class="col-md-6 col-lg-3">
 				<div class="ftco-footer-widget mb-4">
-					<h2 class="ftco-heading-2">Open Hours</h2>
+					<h2 class="ftco-heading-2">Giờ mở cửa.</h2>
 					<ul class="list-unstyled open-hours">
-						<li class="d-flex"><span>Monday</span><span>9:00 -
-								24:00</span></li>
-						<li class="d-flex"><span>Tuesday</span><span>9:00 -
-								24:00</span></li>
-						<li class="d-flex"><span>Wednesday</span><span>9:00 -
-								24:00</span></li>
-						<li class="d-flex"><span>Thursday</span><span>9:00 -
-								24:00</span></li>
-						<li class="d-flex"><span>Friday</span><span>9:00 -
-								02:00</span></li>
-						<li class="d-flex"><span>Saturday</span><span>9:00 -
-								02:00</span></li>
-						<li class="d-flex"><span>Sunday</span><span> Closed</span></li>
+						<li class="d-flex"><span>Thứ 2</span><span>9:00 -
+								21:00</span></li>
+						<li class="d-flex"><span>Thứ 3</span><span>9:00 -
+								21:00</span></li>
+						<li class="d-flex"><span>Thứ 4</span><span>9:00 -
+								21:00</span></li>
+						<li class="d-flex"><span>Thứ 5</span><span>9:00 -
+								21:00</span></li>
+						<li class="d-flex"><span>Thứ 6</span><span>9:00 -
+								21:00</span></li>
+						<li class="d-flex"><span>Thứ 7</span><span>9:00 -
+								15:00</span></li>
+						<li class="d-flex"><span>Chúa nhật</span><span>Ngưng phục vụ.</span></li>
 					</ul>
 				</div>
 			</div>
 			<div class="col-md-6 col-lg-3">
 				<div class="ftco-footer-widget mb-4">
-					<h2 class="ftco-heading-2">Newsletter</h2>
+					<h2 class="ftco-heading-2">Tin tức</h2>
 					<p>Far far away, behind the word mountains, far from the
 						countries.</p>
 					<form action="#" class="subscribe-form">
@@ -84,7 +86,7 @@
 					</script>
 					All rights reserved | This template is made with <i
 						class="icon-heart" aria-hidden="true"></i> by <a
-						href="https://colorlib.com" target="_blank">Colorlib</a>
+						 target="_blank">Colorlib</a>
 					<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
 				</p>
 			</div>
