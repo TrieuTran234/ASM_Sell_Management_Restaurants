@@ -4,7 +4,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 
-@Controller
+//@Controller
 public class AdminController {
 
 	@RequestMapping("/dangKy")
@@ -17,17 +17,5 @@ public class AdminController {
 		return "account/dang_Nhap";
 	}
 	
-	@RequestMapping("/doiMK")
-	public String doiMK() {
-		return "account/doi_MK";
-	}
-	
-	@RequestMapping("/quenMK")
-	public String quenMK() {
-		return "account/quen_MK";
-	}
-	@RequestMapping("/suaTK")
-	public String suaTK() {
-		return "account/sua_TK";
-	}
+
 }
