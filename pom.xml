@@ -45,6 +45,25 @@
 			<artifactId>jstl</artifactId>
 		</dependency>
 		
+		<!-- them moi cua phan SQL-->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-validation</artifactId>
+		</dependency>
+		<!-- them moi -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-data-jpa</artifactId>
+		</dependency>
+		<!-- them moi -->
+		<dependency>
+			<groupId>com.microsoft.sqlserver</groupId>
+			<artifactId>mssql-jdbc</artifactId>
+			<version>9.4.1.jre16</version>
+			<scope>runtime</scope>
+		</dependency>
+		
+		
 	</dependencies>
 
 	<build>
