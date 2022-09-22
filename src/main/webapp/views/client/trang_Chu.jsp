@@ -1,9 +1,9 @@
 <%@ page language="java" contentType="text/html; charset=utf-8"
 	pageEncoding="utf-8"%>
-	
+
 <%@ taglib uri="http://java.sun.com/jstl/core_rt" prefix="c"%>
-	
-	
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -18,24 +18,24 @@
 <link href="https://fonts.googleapis.com/css?family=Lovers+Quarrel"
 	rel="stylesheet">
 
-<link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
-<link rel="stylesheet" href="css/animate.css">
+<link rel="stylesheet" href="/css/open-iconic-bootstrap.min.css">
+<link rel="stylesheet" href="/css/animate.css">
 
-<link rel="stylesheet" href="css/owl.carousel.min.css">
-<link rel="stylesheet" href="css/owl.theme.default.min.css">
-<link rel="stylesheet" href="css/magnific-popup.css">
+<link rel="stylesheet" href="/css/owl.carousel.min.css">
+<link rel="stylesheet" href="/css/owl.theme.default.min.css">
+<link rel="stylesheet" href="/css/magnific-popup.css">
 
-<link rel="stylesheet" href="css/aos.css">
+<link rel="stylesheet" href="/css/aos.css">
 
-<link rel="stylesheet" href="css/ionicons.min.css">
+<link rel="stylesheet" href="/css/ionicons.min.css">
 
-<link rel="stylesheet" href="css/bootstrap-datepicker.css">
-<link rel="stylesheet" href="css/jquery.timepicker.css">
+<link rel="stylesheet" href="/css/bootstrap-datepicker.css">
+<link rel="stylesheet" href="/css/jquery.timepicker.css">
 
 
-<link rel="stylesheet" href="css/flaticon.css">
-<link rel="stylesheet" href="css/icomoon.css">
-<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="/css/flaticon.css">
+<link rel="stylesheet" href="/css/icomoon.css">
+<link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
 
@@ -67,7 +67,7 @@
 					class="row d-md-flex no-gutters slider-text js-fullheight align-items-center justify-content-end"
 					data-scrollax-parent="true">
 					<div class="one-third order-md-last img js-fullheight"
-						style="background-image: url(images/bg_3.jpg);">
+						style="background-image: url(/images/bg_3.jpg);">
 						<div class="overlay"></div>
 					</div>
 					<div
@@ -97,7 +97,7 @@
 					class="row d-flex no-gutters slider-text js-fullheight align-items-center justify-content-end"
 					data-scrollax-parent="true">
 					<div class="one-third order-md-last img js-fullheight"
-						style="background-image: url(images/bg_2.jpg);">
+						style="background-image: url(/images/bg_2.jpg);">
 						<div class="overlay"></div>
 					</div>
 					<div
@@ -127,7 +127,7 @@
 			<div class="row no-gutters">
 				<div
 					class="col-sm-5 img img-2 d-flex align-items-center justify-content-center justify-content-md-end"
-					style="background-image: url(images/about.jpg); position: relative"></div>
+					style="background-image: url(/images/about.jpg); position: relative"></div>
 				<div class="col-sm-7 wrap-about py-5 ftco-animate">
 					<div class="heading-section mt-5 mb-4">
 						<div class="pl-lg-5 ml-md-5">
@@ -148,15 +148,15 @@
 						<div class="thumb my-4 d-flex">
 							<a href="#" class="thumb-menu pr-md-4 text-center">
 								<div class="img"
-									style="background-image: url(images/lunch-4.jpg);"></div>
+									style="background-image: url(/images/lunch-4.jpg);"></div>
 								<h4>Australian Organic Beef</h4>
 							</a> <a href="#" class="thumb-menu pr-md-4 text-center">
 								<div class="img"
-									style="background-image: url(images/lunch-7.jpg);"></div>
+									style="background-image: url(/images/lunch-7.jpg);"></div>
 								<h4>Australian Organic Beef</h4>
 							</a> <a href="#" class="thumb-menu pr-md-4 text-center">
 								<div class="img"
-									style="background-image: url(images/lunch-6.jpg);"></div>
+									style="background-image: url(/images/lunch-6.jpg);"></div>
 								<h4>Australian Organic Beef</h4>
 							</a>
 						</div>
@@ -167,7 +167,7 @@
 	</section>
 
 	<section class="ftco-section ftco-counter img" id="section-counter"
-		style="background-image: url(images/bg_4.jpg);"
+		style="background-image: url(/images/bg_4.jpg);"
 		data-stellar-background-ratio="0.5">
 		<div class="container">
 			<div class="row d-md-flex align-items-center justify-content-center">
@@ -224,14 +224,15 @@
 					<h2 class="mb-4">Our Menu</h2>
 				</div>
 			</div>
+			<!-- món khai vị -->
 			<div class="row">
 				<div class="col-md-6 col-lg-4 menu-wrap">
 					<div class="heading-menu text-center ftco-animate">
-						<h3>Breakfast</h3>
+						<h3>Khai Vị.</h3>
 					</div>
 					<div class="menus d-flex ftco-animate">
 						<div class="menu-img img"
-							style="background-image: url(images/breakfast-1.jpg);"></div>
+							style="background-image: url(/images/breakfast-1.jpg);"></div>
 						<div class="text">
 							<div class="d-flex">
 								<div class="one-half">
@@ -246,49 +247,16 @@
 							</p>
 						</div>
 					</div>
-					<div class="menus d-flex ftco-animate">
-						<div class="menu-img img"
-							style="background-image: url(images/breakfast-2.jpg);"></div>
-						<div class="text">
-							<div class="d-flex">
-								<div class="one-half">
-									<h3>Grilled Crab with Onion</h3>
-								</div>
-								<div class="one-forth">
-									<span class="price">$29</span>
-								</div>
-							</div>
-							<p>
-								<span>Meat</span>, <span>Potatoes</span>, <span>Rice</span>, <span>Tomatoe</span>
-							</p>
-						</div>
-					</div>
-					<div class="menus d-flex ftco-animate">
-						<div class="menu-img img"
-							style="background-image: url(images/breakfast-3.jpg);"></div>
-						<div class="text">
-							<div class="d-flex">
-								<div class="one-half">
-									<h3>Grilled Crab with Onion</h3>
-								</div>
-								<div class="one-forth">
-									<span class="price">$29</span>
-								</div>
-							</div>
-							<p>
-								<span>Meat</span>, <span>Potatoes</span>, <span>Rice</span>, <span>Tomatoe</span>
-							</p>
-						</div>
-					</div>
-				</div>
 
+				</div>
+				<!-- món chính -->
 				<div class="col-md-6 col-lg-4 menu-wrap">
 					<div class="heading-menu text-center ftco-animate">
-						<h3>Lunch</h3>
+						<h3>Món Chính.</h3>
 					</div>
 					<div class="menus d-flex ftco-animate">
 						<div class="menu-img img"
-							style="background-image: url(images/lunch-1.jpg);"></div>
+							style="background-image: url(/images/lunch-1.jpg);"></div>
 						<div class="text">
 							<div class="d-flex">
 								<div class="one-half">
@@ -303,49 +271,16 @@
 							</p>
 						</div>
 					</div>
-					<div class="menus d-flex ftco-animate">
-						<div class="menu-img img"
-							style="background-image: url(images/lunch-2.jpg);"></div>
-						<div class="text">
-							<div class="d-flex">
-								<div class="one-half">
-									<h3>Grilled Crab with Onion</h3>
-								</div>
-								<div class="one-forth">
-									<span class="price">$29</span>
-								</div>
-							</div>
-							<p>
-								<span>Meat</span>, <span>Potatoes</span>, <span>Rice</span>, <span>Tomatoe</span>
-							</p>
-						</div>
-					</div>
-					<div class="menus d-flex ftco-animate">
-						<div class="menu-img img"
-							style="background-image: url(images/lunch-3.jpg);"></div>
-						<div class="text">
-							<div class="d-flex">
-								<div class="one-half">
-									<h3>Grilled Crab with Onion</h3>
-								</div>
-								<div class="one-forth">
-									<span class="price">$29</span>
-								</div>
-							</div>
-							<p>
-								<span>Meat</span>, <span>Potatoes</span>, <span>Rice</span>, <span>Tomatoe</span>
-							</p>
-						</div>
-					</div>
-				</div>
 
+				</div>
+				<!-- món chính -->
 				<div class="col-md-6 col-lg-4 menu-wrap">
 					<div class="heading-menu text-center ftco-animate">
-						<h3>Dinner</h3>
+						<h3>Tráng Miệng.</h3>
 					</div>
 					<div class="menus d-flex ftco-animate">
 						<div class="menu-img img"
-							style="background-image: url(images/dinner-1.jpg);"></div>
+							style="background-image: url(/images/dinner-1.jpg);"></div>
 						<div class="text">
 							<div class="d-flex">
 								<div class="one-half">
@@ -360,46 +295,13 @@
 							</p>
 						</div>
 					</div>
-					<div class="menus d-flex ftco-animate">
-						<div class="menu-img img"
-							style="background-image: url(images/dinner-2.jpg);"></div>
-						<div class="text">
-							<div class="d-flex">
-								<div class="one-half">
-									<h3>Grilled Crab with Onion</h3>
-								</div>
-								<div class="one-forth">
-									<span class="price">$29</span>
-								</div>
-							</div>
-							<p>
-								<span>Meat</span>, <span>Potatoes</span>, <span>Rice</span>, <span>Tomatoe</span>
-							</p>
-						</div>
-					</div>
-					<div class="menus d-flex ftco-animate">
-						<div class="menu-img img"
-							style="background-image: url(images/dinner-3.jpg);"></div>
-						<div class="text">
-							<div class="d-flex">
-								<div class="one-half">
-									<h3>Grilled Crab with Onion</h3>
-								</div>
-								<div class="one-forth">
-									<span class="price">$29</span>
-								</div>
-							</div>
-							<p>
-								<span>Meat</span>, <span>Potatoes</span>, <span>Rice</span>, <span>Tomatoe</span>
-							</p>
-						</div>
-					</div>
 				</div>
 
-				<!--  -->
+				<!-- Đồ uống -->
 				<div class="col-md-6 col-lg-4 menu-wrap">
+					<!-- vang trắng -->
 					<div class="heading-menu text-center ftco-animate">
-						<h3>Desserts</h3>
+						<h3>Vang Trắng.</h3>
 					</div>
 					<div class="menus d-flex ftco-animate">
 						<div class="menu-img img"
@@ -418,49 +320,16 @@
 							</p>
 						</div>
 					</div>
-					<div class="menus d-flex ftco-animate">
-						<div class="menu-img img"
-							style="background-image: url(images/dessert-2.jpg);"></div>
-						<div class="text">
-							<div class="d-flex">
-								<div class="one-half">
-									<h3>Grilled Crab with Onion</h3>
-								</div>
-								<div class="one-forth">
-									<span class="price">$29</span>
-								</div>
-							</div>
-							<p>
-								<span>Meat</span>, <span>Potatoes</span>, <span>Rice</span>, <span>Tomatoe</span>
-							</p>
-						</div>
-					</div>
-					<div class="menus d-flex ftco-animate">
-						<div class="menu-img img"
-							style="background-image: url(images/dessert-3.jpg);"></div>
-						<div class="text">
-							<div class="d-flex">
-								<div class="one-half">
-									<h3>Grilled Crab with Onion</h3>
-								</div>
-								<div class="one-forth">
-									<span class="price">$29</span>
-								</div>
-							</div>
-							<p>
-								<span>Meat</span>, <span>Potatoes</span>, <span>Rice</span>, <span>Tomatoe</span>
-							</p>
-						</div>
-					</div>
-				</div>
 
+				</div>
+				<!-- vang đỏ -->
 				<div class="col-md-6 col-lg-4 menu-wrap">
 					<div class="heading-menu text-center ftco-animate">
-						<h3>Wine Card</h3>
+						<h3>Vang Đỏ.</h3>
 					</div>
 					<div class="menus d-flex ftco-animate">
 						<div class="menu-img img"
-							style="background-image: url(images/wine-1.jpg);"></div>
+							style="background-image: url(/images/wine-1.jpg);"></div>
 						<div class="text">
 							<div class="d-flex">
 								<div class="one-half">
@@ -475,87 +344,19 @@
 							</p>
 						</div>
 					</div>
-					<div class="menus d-flex ftco-animate">
-						<div class="menu-img img"
-							style="background-image: url(images/wine-2.jpg);"></div>
-						<div class="text">
-							<div class="d-flex">
-								<div class="one-half">
-									<h3>Grilled Crab with Onion</h3>
-								</div>
-								<div class="one-forth">
-									<span class="price">$29</span>
-								</div>
-							</div>
-							<p>
-								<span>Meat</span>, <span>Potatoes</span>, <span>Rice</span>, <span>Tomatoe</span>
-							</p>
-						</div>
-					</div>
-					<div class="menus d-flex ftco-animate">
-						<div class="menu-img img"
-							style="background-image: url(images/wine-3.jpg);"></div>
-						<div class="text">
-							<div class="d-flex">
-								<div class="one-half">
-									<h3>Grilled Crab with Onion</h3>
-								</div>
-								<div class="one-forth">
-									<span class="price">$29</span>
-								</div>
-							</div>
-							<p>
-								<span>Meat</span>, <span>Potatoes</span>, <span>Rice</span>, <span>Tomatoe</span>
-							</p>
-						</div>
-					</div>
 				</div>
 
 				<div class="col-md-6 col-lg-4 menu-wrap">
 					<div class="heading-menu text-center ftco-animate">
-						<h3>Drinks</h3>
+						<h3>Không Cồn.</h3>
 					</div>
 					<div class="menus d-flex ftco-animate">
 						<div class="menu-img img"
-							style="background-image: url(images/drink-1.jpg);"></div>
+							style="background-image: url(/images/drink-1.jpg);"></div>
 						<div class="text">
 							<div class="d-flex">
 								<div class="one-half">
 									<h3>Grilled Beef with potatoes</h3>
-								</div>
-								<div class="one-forth">
-									<span class="price">$29</span>
-								</div>
-							</div>
-							<p>
-								<span>Meat</span>, <span>Potatoes</span>, <span>Rice</span>, <span>Tomatoe</span>
-							</p>
-						</div>
-					</div>
-					<div class="menus d-flex ftco-animate">
-						<div class="menu-img img"
-							style="background-image: url(images/drink-2.jpg);"></div>
-						<div class="text">
-							<div class="d-flex">
-								<div class="one-half">
-									<h3>Grilled Crab with Onion</h3>
-								</div>
-								<div class="one-forth">
-									<span class="price">$29</span>
-								</div>
-							</div>
-							<p>
-								<span>Meat</span>, <span>Potatoes</span>, <span>Rice</span>, <span>Tomatoe</span>
-							</p>
-						</div>
-					</div>
-					<div class="menus d-flex ftco-animate">
-						<div class="menu-img img"
-							style="background-image: url(images/drink-3.jpg);"></div>
-						<div class="text">
-							<div class="d-flex">
-								<div class="one-half">
-									<h3>Grilled Crab with Onion</h3>
 								</div>
 								<div class="one-forth">
 									<span class="price">$29</span>
@@ -571,10 +372,11 @@
 		</div>
 
 	</section>
-
+<!-- 
 	<section class="ftco-section testimony-section"
-		style="background-image: url(images/bg_5.jpg);"
+		style="background-image: url(/images/bg_5.jpg);"
 		data-stellar-background-ratio="0.5">
+		
 		<div class="container">
 			<div class="row justify-content-center mb-5 pb-2">
 				<div
@@ -586,6 +388,7 @@
 			<div class="row ftco-animate justify-content-center">
 				<div class="col-md-7">
 					<div class="carousel-testimony owl-carousel ftco-owl">
+					
 						<div class="item">
 							<div class="testimony-wrap text-center py-4 pb-5">
 								<div class="user-img mb-4"
@@ -681,13 +484,13 @@
 			</div>
 		</div>
 	</section>
-
+ -->
 
 	<section class="ftco-section ftco-no-pt ftco-no-pb">
 		<div class="container">
 			<div class="row d-flex">
 				<div class="col-md-5 ftco-animate img img-2"
-					style="background-image: url(images/bg_6.jpg);"></div>
+					style="background-image: url(/images/bg_6.jpg);"></div>
 				<div class="col-md-7 ftco-animate makereservation p-4 p-md-5">
 					<div class="heading-section ftco-animate mb-5">
 						<span class="subheading">Book a Table</span>
@@ -755,38 +558,38 @@
 		</div>
 	</section>
 
-		<br>
+	<br>
 	<!-- Footer -->
 	<div>
-		<jsp:include page="/WEB-INF/views/headerFooter/footer.jsp" />
+		<jsp:include page="/views/headerFooter/footer.jsp" />
 	</div>
 
 
-	<!-- loader -->
+	<!-- loader
 	<div id="ftco-loader" class="show fullscreen">
 		<svg class="circular" width="48px" height="48px">
 			<circle class="path-bg" cx="24" cy="24" r="22" fill="none"
 				stroke-width="4" stroke="#eeeeee" />
 			<circle class="path" cx="24" cy="24" r="22" fill="none"
 				stroke-width="4" stroke-miterlimit="10" stroke="#F96D00" /></svg>
-	</div>
+	</div> -->
 
 
-	<script src="js/jquery.min.js"></script>
-	<script src="js/jquery-migrate-3.0.1.min.js"></script>
-	<script src="js/popper.min.js"></script>
-	<script src="js/bootstrap.min.js"></script>
-	<script src="js/jquery.easing.1.3.js"></script>
-	<script src="js/jquery.waypoints.min.js"></script>
-	<script src="js/jquery.stellar.min.js"></script>
-	<script src="js/owl.carousel.min.js"></script>
-	<script src="js/jquery.magnific-popup.min.js"></script>
-	<script src="js/aos.js"></script>
-	<script src="js/jquery.animateNumber.min.js"></script>
-	<script src="js/bootstrap-datepicker.js"></script>
-	<script src="js/jquery.timepicker.min.js"></script>
-	<script src="js/scrollax.min.js"></script>
-	<script src="js/main.js"></script>
+	<script src="/js/jquery.min.js"></script>
+	<script src="/js/jquery-migrate-3.0.1.min.js"></script>
+	<script src="/js/popper.min.js"></script>
+	<script src="/js/bootstrap.min.js"></script>
+	<script src="/js/jquery.easing.1.3.js"></script>
+	<script src="/js/jquery.waypoints.min.js"></script>
+	<script src="/js/jquery.stellar.min.js"></script>
+	<script src="/js/owl.carousel.min.js"></script>
+	<script src="/js/jquery.magnific-popup.min.js"></script>
+	<script src="/js/aos.js"></script>
+	<script src="/js/jquery.animateNumber.min.js"></script>
+	<script src="/js/bootstrap-datepicker.js"></script>
+	<script src="/js/jquery.timepicker.min.js"></script>
+	<script src="/js/scrollax.min.js"></script>
+	<script src="/js/main.js"></script>
 
 </body>
 </html>
