@@ -14,24 +14,24 @@
 <link href="https://fonts.googleapis.com/css?family=Lovers+Quarrel"
 	rel="stylesheet">
 
-<link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
-<link rel="stylesheet" href="css/animate.css">
+<link rel="stylesheet" href="/css/open-iconic-bootstrap.min.css">
+<link rel="stylesheet" href="/css/animate.css">
 
-<link rel="stylesheet" href="css/owl.carousel.min.css">
-<link rel="stylesheet" href="css/owl.theme.default.min.css">
-<link rel="stylesheet" href="css/magnific-popup.css">
+<link rel="stylesheet" href="/css/owl.carousel.min.css">
+<link rel="stylesheet" href="/css/owl.theme.default.min.css">
+<link rel="stylesheet" href="/css/magnific-popup.css">
 
-<link rel="stylesheet" href="css/aos.css">
+<link rel="stylesheet" href="/css/aos.css">
 
-<link rel="stylesheet" href="css/ionicons.min.css">
+<link rel="stylesheet" href="/css/ionicons.min.css">
 
-<link rel="stylesheet" href="css/bootstrap-datepicker.css">
-<link rel="stylesheet" href="css/jquery.timepicker.css">
+<link rel="stylesheet" href="/css/bootstrap-datepicker.css">
+<link rel="stylesheet" href="/css/jquery.timepicker.css">
 
 
-<link rel="stylesheet" href="css/flaticon.css">
-<link rel="stylesheet" href="css/icomoon.css">
-<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="/css/flaticon.css">
+<link rel="stylesheet" href="/css/icomoon.css">
+<link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
 	<!-- Start nav header -->
@@ -64,25 +64,27 @@
 		<div class="container">
 			<div class="row d-flex">
 				<div class="col-md-5 ftco-animate img img-2"
-					style="background-image: url(images/bg_6.jpg);"></div>
+					style="background-image: url(/images/bg_6.jpg);"></div>
 				<div class="col-md-7 ftco-animate makereservation p-4 p-md-5">
 					<div class="heading-section ftco-animate mb-5">
 						<span class="subheading">Đăng nhập.</span>
 						<hr>
-						<!-- <h2 class="mb-4">Make Reservation</h2> -->
+
 					</div>
-					<form  action="/account/login" method="post" >
+					<form action="/taiKhoan/dangNhap" method="post">
 						<div class="row">
 							<div class="col-md-10">
 								<div class="form-group">
-									<label for="">SDT ~ Email. </label> <input type="text"  value="${userDN}" name="username" 
-										class="form-control" placeholder="Tên tài khoản.....">
+									<label for="">SDT ~ Email. </label> <input type="text"
+										value="${userDN}" name="username" class="form-control"
+										placeholder="Tên tài khoản.....">
 								</div>
 							</div>
 							<div class="col-md-10">
 								<div class="form-group">
-									<label for="">Mật khẩu.</label> <input type="password" name="password"
-										class="form-control" placeholder="Mật khẩu.....">
+									<label for="">Mật khẩu.</label> <input type="password"
+										value="${passDN}" name="password" class="form-control"
+										placeholder="Mật khẩu.....">
 								</div>
 							</div>
 							<br>
@@ -99,15 +101,17 @@
 								</div>
 							</div>
 
-							<div class="col-md-4 mt-3">
-								<div class="form-group">
-									<input style="background-color: blue;" type="submit"
-										value="Đăng ký" formaction="/taiKhoan/dangKy"
-										class="btn btn-primary py-3 px-5">
-								</div>
-							</div>
+
 						</div>
+
 					</form>
+					<div class="col-md-4 mt-3">
+						<div class="form-group">
+							<input style="background-color: blue;" type="submit"
+								value="Đăng ký" formaction="/taiKhoan/dangKy"
+								class="btn btn-primary py-3 px-5">
+						</div>
+					</div>
 					<div style="color: red; font-size: 30px;">${message }${param.error}</div>
 				</div>
 			</div>
@@ -136,24 +140,24 @@
 	</div>
 
 
-	<script src="js/jquery.min.js"></script>
-	<script src="js/jquery-migrate-3.0.1.min.js"></script>
-	<script src="js/popper.min.js"></script>
-	<script src="js/bootstrap.min.js"></script>
-	<script src="js/jquery.easing.1.3.js"></script>
-	<script src="js/jquery.waypoints.min.js"></script>
-	<script src="js/jquery.stellar.min.js"></script>
-	<script src="js/owl.carousel.min.js"></script>
-	<script src="js/jquery.magnific-popup.min.js"></script>
-	<script src="js/aos.js"></script>
-	<script src="js/jquery.animateNumber.min.js"></script>
-	<script src="js/bootstrap-datepicker.js"></script>
-	<script src="js/jquery.timepicker.min.js"></script>
-	<script src="js/scrollax.min.js"></script>
+	<script src="/js/jquery.min.js"></script>
+	<script src="/js/jquery-migrate-3.0.1.min.js"></script>
+	<script src="/js/popper.min.js"></script>
+	<script src="/js/bootstrap.min.js"></script>
+	<script src="/js/jquery.easing.1.3.js"></script>
+	<script src="/js/jquery.waypoints.min.js"></script>
+	<script src="/js/jquery.stellar.min.js"></script>
+	<script src="/js/owl.carousel.min.js"></script>
+	<script src="/js/jquery.magnific-popup.min.js"></script>
+	<script src="/js/aos.js"></script>
+	<script src="/js/jquery.animateNumber.min.js"></script>
+	<script src="/js/bootstrap-datepicker.js"></script>
+	<script src="/js/jquery.timepicker.min.js"></script>
+	<script src="/js/scrollax.min.js"></script>
 	<script
 		src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
-	<script src="js/google-map.js"></script>
-	<script src="js/main.js"></script>
+	<script src="/js/google-map.js"></script>
+	<script src="/js/main.js"></script>
 
 </body>
 </html>

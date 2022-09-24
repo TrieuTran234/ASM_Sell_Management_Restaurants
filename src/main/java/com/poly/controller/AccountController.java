@@ -49,77 +49,23 @@ public class AccountController {
 //	@Autowired
 //	MailerService mailerService;
 	
-	
-	@RequestMapping("/index")
-	public String index() {
-		return "client/trang_Chu";
-	}
-	@RequestMapping("/index/fix")
-	public String index2() {
-		return "client/trang_Chu";
-	}
-	
-	@RequestMapping("/dangKy")
-	public String dangKy() {
-		return "account/dang_Ky";
-	}
-	
-	@RequestMapping("/account/dangKy")
-	public String dangNhap() {
-		return "account/dang_Ky";
-	}
-	
-	@RequestMapping("/doiMK")
-	public String doiMK() {
-		return "account/doi_MK";
-	}
-	
-	@RequestMapping("/quenMK")
-	public String quenMK() {
-		return "account/quen_MK";
-	}
-	@RequestMapping("/suaTK")
-	public String suaTK() {
-		return "account/sua_TK";
-	}
-	
-	//dang nhap
-//	@GetMapping("/taiKhoan/dangNhap") luc dau code ko load css
-	
-	@RequestMapping("/taiKhoan/dangNhap") 
-	public String login1() {
-//		model.addAttribute("user1", cookie.getValue("user1"));	
-//		loadNameAcount(model);
-		return "account/dang_Nhap";
-	}
-//	//dang ky
-//	@GetMapping("/taiKhoan/dangKy")
-//	public String registerIndex(Model model) {
-//		Customer customer = new Customer();
-//		model.addAttribute("item", customer);
-//
-//		model.addAttribute("error", errorRegis);
-//		errorRegis = "";
-//		loadNameAcount(model);
-//		return "account/dang_Ky";
-//	}
-//
-////	@PostMapping ("/taiKhoan/dangNhap")
-//	public String login2(Model model) {
-////		getString(String name, String defaultValue)
-//		// co the dung = request.getParameter("value");
-//		String un = param.getString("username", "");
-//		String pw = param.getString("password", "");
-//		
-////		boolean rm = param.getBoolean("remember", false);// chuc mang remember me
-//
-//		String message = "";
-//
-//		Customer customer3 = null;
-//		Staff staff3 = null;
-//		Optional<Customer> customerOP = customerService.findById(un);
-//		Optional<Staff> staffOP = staffService.findById(un);
-//
+	@PostMapping ("/taiKhoan/dangNhap")
+	public String post_dangNhap(Model model) {
+		// co the dung = request.getParameter("value");
+		String un = param.getString("username", "");
+		String pw = param.getString("password", "");
+		
+//		boolean rm = param.getBoolean("remember", false);// chuc mang remember me
+
+		String message = "";
+
+		Customer customer3 = null;
+		Staff staff3 = null;
+		Optional<Customer> customerOP = customerService.findById(un);
+		Optional<Staff> staffOP = staffService.findById(un);
+		
+		return "/account/dang_Nhap";
+
 //		// xu ly khi la khach hang
 //		if (customerOP.isPresent()) {
 //			customer3 = customerOP.get();
@@ -173,14 +119,15 @@ public class AccountController {
 //		String name = findUserService.findUser(session.get("user"));// ???????????????????????????????????????????????
 //		
 //		if (message.equals("")) {
-//			return "redirect:/index";
-//		} else {
+//			return "redirect:/form/taiKhoan/dangNhap";
+//		} 
+//		else {
 //			session.set("admin", null);
 //			session.set("user", null);
-//			return "account/login";
+//			return "/form/taiKhoan/dangNhap";
 //		}
-//
-//	}
+
+	}
 //
 //	// logout
 //	@RequestMapping("/account/logout")
@@ -421,38 +368,41 @@ public class AccountController {
 ////	
 ////		mailerService.send(from, to, null, null, subject, body, null);
 ////	}
-//	public boolean dologin(String username, String password) {
-//		Customer customer = null;
-//		Staff staff = null;
-//	
-//		Optional<Customer> customerOP = customerService.findById(username);
-//		Optional<Staff> staffOP = staffService.findById(username);
-//	
-//		boolean login = false;
-//	
-//		if (customerOP.isPresent()) {
-//			customer = customerOP.get();
-//			if (password.equals(customer.getPassword())) {
-//				login = true;
-//			}
-//		}
-//		if (staffOP.isPresent()) {
-//			staff = staffOP.get();
-//			if (password.equals(staff.getPassword())) {
-//				login = true;
-//			}
-//		}
-//		return login;
-//	}
-//
-//	public void loadNameAcount(Model model) {
-//		try {
-//			// Đọc giá trị của attribute trong session
-//			String name = findUserService.findUser(session.get("user"));
-//			model.addAttribute("name", name);
-//		} catch (Exception e) {
-//			System.out.println(e+"loi kho load acount");
-//		}
-//	}
+	public boolean dologin(String username, String password) {
+		Customer customer = null;
+		Staff staff = null;
+	
+		Optional<Customer> customerOP = customerService.findById(username);
+		Optional<Staff> staffOP = staffService.findById(username);
+	
+		boolean login = false;
+	
+		if (customerOP.isPresent()) {
+			customer = customerOP.get();
+			if (password.equals(customer.getPassword())) {
+				login = true;
+			}
+		}
+		
+		if (staffOP.isPresent()) {
+			staff = staffOP.get();
+			if (password.equals(staff.getPassword())) {
+				login = true;khi am
+			}
+		}         
+		//
+		
+		return login;
+	}
+
+	public void loadNameAcount(Model model) {
+		try {
+			// Đọc giá trị của attribute trong session
+			String name = findUserService.findUser(session.get("user"));
+			model.addAttribute("name", name);
+		} catch (Exception e) {
+			System.out.println(e+"loi kho load acount");
+		}
+	}
 
 }

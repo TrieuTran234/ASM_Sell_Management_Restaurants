@@ -1,9 +1,12 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"
-	pageEncoding="UTF-8"%>
+<%@ page language="java" contentType="text/html; charset=utf-8"
+	pageEncoding="utf-8"%>
+	
+<%@ taglib uri="http://java.sun.com/jstl/core_rt" prefix="c"%>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Cập nhật thông tin</title>
+<title>Đăng ký</title>
 <meta charset="utf-8">
 <meta name="viewport"
 	content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -26,7 +29,7 @@
 <link rel="stylesheet" href="/css/ionicons.min.css">
 
 <link rel="stylesheet" href="/css/bootstrap-datepicker.css">
-<link rel="stylesheet" href="/css/jquery.timepicker.css">
+<link rel="stylesheet" href="/resources/static/css/jquery.timepicker.css">
 
 
 <link rel="stylesheet" href="/css/flaticon.css">
@@ -41,7 +44,7 @@
 	<!-- END nav -->
 	<br>
 	<section class="hero-wrap hero-wrap-2"
-		style="background-image: url('images/bg_4.jpg');"
+		style="background-image: url('/images/bg_4.jpg');"
 		data-stellar-background-ratio="0.5">
 		<div class="overlay"></div>
 		<div class="container">
@@ -64,71 +67,64 @@
 		<div class="container">
 			<div class="row d-flex">
 				<div class="col-md-5 ftco-animate img img-2"
-					style="background-image: url(images/bg_6.jpg);"></div>
+					style="background-image: url(/images/bg_6.jpg);"></div>
 				<div class="col-md-7 ftco-animate makereservation p-4 p-md-5">
 					<div class="heading-section ftco-animate mb-5">
-						<span class="subheading">Cập nhật thông tin</span>
-						<hr>
-						<!-- <h2 class="mb-4">Make Reservation</h2> -->
+						<span class="subheading">Book a Table</span>
+						<h2 class="mb-4">Make Reservation</h2>
 					</div>
 					<form action="#">
 						<div class="row">
-							<div class="col-md-10">
+							<div class="col-md-6">
 								<div class="form-group">
-									<label for="">SDT ~ Email </label> <input type="text"
+									<label for="">Name</label> <input type="text"
 										class="form-control" placeholder="Your Name">
 								</div>
 							</div>
-							<div class="col-md-10">
+							<div class="col-md-6">
 								<div class="form-group">
 									<label for="">Email</label> <input type="text"
 										class="form-control" placeholder="Your Email">
 								</div>
 							</div>
-							<!-- 
-                <div class="col-md-6">
-                  <div class="form-group">
-                    <label for="">Phone</label>
-                    <input type="text" class="form-control" placeholder="Phone">
-                  </div>
-                </div>
-                <div class="col-md-6">
-                  <div class="form-group">
-                    <label for="">Phone</label>
-                    <input type="text" class="form-control" id="book_date" placeholder="Date">
-                  </div>
-                </div>
-                <div class="col-md-6">
-                  <div class="form-group">
-                    <label for="">Time</label>
-                    <input type="text" class="form-control" id="book_time" placeholder="Time">
-                  </div>
-                </div>
-                <div class="col-md-6">
-                  <div class="form-group">
-                    <label for="">Person</label>
-                    <div class="select-wrap one-third">
-                      <div class="icon"><span class="ion-ios-arrow-down"></span></div>
-                      <select name="" id="" class="form-control">
-                        <option value="">Person</option>
-                        <option value="">1</option>
-                        <option value="">2</option>
-                        <option value="">3</option>
-                        <option value="">4+</option>
-                      </select>
-                    </div>
-                  </div>
-                </div>
-                 -->
-							<div class="col-md-4 mt-3">
+							<div class="col-md-6">
 								<div class="form-group">
-									<input type="submit" value="Đăng nhập"
-										class="btn btn-primary py-3 px-5">
+									<label for="">Phone</label> <input type="text"
+										class="form-control" placeholder="Phone">
 								</div>
 							</div>
-							<div class="col-md-4 mt-3" >
+							<div class="col-md-6">
 								<div class="form-group">
-									<input style="background-color:  blue;" type="submit" value="Đăng ký"
+									<label for="">Phone</label> <input type="text"
+										class="form-control" id="book_date" placeholder="Date">
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="form-group">
+									<label for="">Time</label> <input type="text"
+										class="form-control" id="book_time" placeholder="Time">
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="form-group">
+									<label for="">Person</label>
+									<div class="select-wrap one-third">
+										<div class="icon">
+											<span class="ion-ios-arrow-down"></span>
+										</div>
+										<select name="" id="" class="form-control">
+											<option value="">Person</option>
+											<option value="">1</option>
+											<option value="">2</option>
+											<option value="">3</option>
+											<option value="">4+</option>
+										</select>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-12 mt-3">
+								<div class="form-group">
+									<input type="submit" value="Make a Reservation"
 										class="btn btn-primary py-3 px-5">
 								</div>
 							</div>
@@ -149,14 +145,14 @@
 
 
 
-	<!-- loader -->
+	<!-- loader 
 	<div id="ftco-loader" class="show fullscreen">
 		<svg class="circular" width="48px" height="48px">
 			<circle class="path-bg" cx="24" cy="24" r="22" fill="none"
 				stroke-width="4" stroke="#eeeeee" />
 			<circle class="path" cx="24" cy="24" r="22" fill="none"
 				stroke-width="4" stroke-miterlimit="10" stroke="#F96D00" /></svg>
-	</div>
+	</div>-->
 
 
 	<script src="/js/jquery.min.js"></script>
